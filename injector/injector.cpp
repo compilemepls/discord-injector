@@ -194,7 +194,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    vector<wstring> list = { L"discord.exe", L"discordptb.exe", L"discordcanary.exe", L"retrocord.exe" };
+    vector<wstring> list = { L"discord.exe", L"discordptb.exe", L"discordcanary.exe"};
     wcout << L" Select Target:\n";
     for (size_t i = 0; i < list.size(); ++i) wcout << L" [" << i + 1 << L"] " << list[i] << endl;
 
