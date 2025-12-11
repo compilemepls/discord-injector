@@ -1,0 +1,27 @@
+﻿  injector.cpp
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(185,63): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(185,63): error C2589: '(': illegal token on right side of '::'
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(185,63): error C2059: syntax error: ')'
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(185,74): error C2059: syntax error: ')'
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(246,44): error C3873: '0xa4': this character is not allowed as a first character of an identifier
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(246,44): error C2065: '¤tFilter': undeclared identifier
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(246,17): error C2660: 'mbstowcs_s': function does not take 4 arguments
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\stdlib.h(908,26):
+      see declaration of 'mbstowcs_s'
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\stdlib.h(916,1):
+      could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) throw()'
+          C:\Users\Administrator\source\repos\injector\injector\injector.cpp(246,17):
+          'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) throw()': could not deduce template argument for 'wchar_t (&)[_Size]' from 'unsigned __int64'
+      C:\Users\Administrator\source\repos\injector\injector\injector.cpp(246,17):
+      while trying to match the argument list '(size_t *, unsigned __int64, const _Elem *, unsigned __int64)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(361,91): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(362,38): warning C4312: 'type cast': conversion from 'DWORD' to 'HMODULE' of greater size
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(403,59): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(403,59): error C2589: '(': illegal token on right side of '::'
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(403,59): error C2059: syntax error: ')'
+C:\Users\Administrator\source\repos\injector\injector\injector.cpp(403,70): error C2059: syntax error: ')'
